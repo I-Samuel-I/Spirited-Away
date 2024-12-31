@@ -10,6 +10,7 @@ export const Featured = styled.section`
     }
     h1{
         font-size: 4.5em;
+        margin-top: 2%;
     }
     h6{
         font-size: 1.5em;
@@ -22,6 +23,8 @@ export const Featured = styled.section`
     img{
         display: flex;
         flex-direction: row;
+        margin-left: 26%;
+        transform: scale(1.1);
     }
 `;
 export const Content = styled.div`

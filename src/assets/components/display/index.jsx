@@ -1,4 +1,4 @@
-import Buttons from "../buttons";
+import * as S from "./style"
 import Featured from "../featured";
 import Menu from "../menu";
 
@@ -6,10 +6,13 @@ export default function Display (){
 
     return (
         <>
-        <main>
-            <Menu/>
-            <Featured/>
-        </main>  
+        <S.Display>
+                <main>
+                    <Menu/>
+                    <Featured/>
+                </main>  
+        </S.Display>
+        
         </>
     )
 }

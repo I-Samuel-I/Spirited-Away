@@ -12,10 +12,11 @@ export default function Featured (){
                         <p>Chihiro chega a um mundo mágico dominado<br/>
                         por uma bruxa. Aqueles que a desobedecem<br/> 
                         são transformados em animais.</p>
+                        <Buttons/>
                     </S.Content>
                     <img src={Image.Ghosts}/>
+                    
                 </section> 
-                <Buttons/>
             </S.Featured>
         
         </>

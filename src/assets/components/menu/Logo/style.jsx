@@ -7,6 +7,6 @@ export const Logo = styled.div`
     margin-left: 10%;
     img{
         border: solid 1px;
-        width: 300px;
+        width: 205px;
     }
 `;

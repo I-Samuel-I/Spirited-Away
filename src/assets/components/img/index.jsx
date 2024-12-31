@@ -6,7 +6,9 @@ import InstagramLogo from "../../images/logo-instagram.svg";
 import TwitterLogo from "../../images/logo-twitter.svg";
 import Logo from "../../images/logo.svg";
 import Play from "../../images/Play.svg";
+import CursorDefault from "../../images/cursor-default.cur";
+import CursorSelect from "../../images/cursor-select.cur";
 export{
     Favicon, Ghosts, FacebookLogo, GoogleLogo, InstagramLogo, 
-    TwitterLogo, Logo, Play
+    TwitterLogo, Logo, Play , CursorDefault , CursorSelect
 }
