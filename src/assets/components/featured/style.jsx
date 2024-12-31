@@ -1,6 +1,18 @@
 import styled from "styled-components";
 
 export const Featured = styled.section`
+    @keyframes backgroundScroll {
+        0% {
+        transform: translateY(0); 
+        }
+        50% {
+        transform: translateY(20px); 
+        }
+        100% {
+        transform: translateY(0); 
+        }
+        
+        }
     color: white;
     margin-left: 10%;
     margin-top:5%;
@@ -23,11 +35,19 @@ export const Featured = styled.section`
     img{
         display: flex;
         flex-direction: row;
-        margin-left: 26%;
+       
         transform: scale(1.1);
+        
     }
 `;
 export const Content = styled.div`
     display: flex;
     flex-direction: column;
+`;
+export const GhostAnimation = styled.div`
+    img{
+        width: 720px;
+        margin-left: 50%;
+        animation: backgroundScroll 4s infinite linear;
+    }
 `;

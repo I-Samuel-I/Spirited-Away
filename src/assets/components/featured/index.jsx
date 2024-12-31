@@ -14,8 +14,10 @@ export default function Featured (){
                         são transformados em animais.</p>
                         <Buttons/>
                     </S.Content>
-                    <img src={Image.Ghosts}/>
-                    
+                    <S.GhostAnimation>
+                        <img src={Image.Ghosts}/>  
+                    </S.GhostAnimation>
+                       
                 </section> 
             </S.Featured>
         

@@ -18,7 +18,6 @@ export const Links = styled.nav`
         border-radius: 50px;
         background-color: #ffffff3b;
     }
-   
     img{
         width:25px;
         
