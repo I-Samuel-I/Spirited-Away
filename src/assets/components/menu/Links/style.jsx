@@ -10,16 +10,19 @@ export const Links = styled.nav`
         display: flex;
         align-items: center;
         list-style:none;
-        gap: 40px;
+        gap: 30px;
         border: solid 1px;
     }
     li{
-        border: solid 2px white;
+        border: solid 1px white;
         border-radius: 50px;
         background-color: #ffffff3b;
+        padding: 5px;
+        padding-top: 7px;
+        padding-left: 7px;
+        padding-right: 7px;
     }
     img{
-        width:25px;
-        
+        width:25px; 
     }
 `;

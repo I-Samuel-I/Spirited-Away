@@ -6,6 +6,7 @@ export default function Featured (){
         <>
             <S.Featured>
                 <section>
+                    
                     <S.Content>
                          <h6>HAYAO MIYAZAKI</h6>
                         <h1>A VIAGEM <br/>DE CHIHIRO</h1>
