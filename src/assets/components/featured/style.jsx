@@ -4,19 +4,20 @@ export const Featured = styled.section`
    
     color: white;
     margin-left: 10%;
-    margin-top:5%;
+    margin-top:7%;
     width: 90%;
-    @media (991px < width <= 1199px) {
-
-        margin-left: 0%;
+    @media ( width <= 1199px) {
         width: 100%;
+        margin-left: 0%;
+        margin-top: 10%
     }
-
+    @media (width <= 991px) {
+        margin-top: 0%;
+    }
     section{
         display:flex;
-        border: solid 1px blue;
         
-        @media (767px < width <= 991px) {
+        @media ( width <= 991px) {
          display: flex;
          flex-direction: column;   
          align-items: center;
@@ -31,10 +32,12 @@ export const Featured = styled.section`
         font-size: 1.5em;
     }
     p{
+        white-space: normal;
         font-size: 1.5em;
         line-height: 1.5;
         margin-top: 5%;
     }
+
     img{
         display: flex;
         flex-direction: row;
@@ -45,8 +48,8 @@ export const Featured = styled.section`
 export const Content = styled.div`
     display: flex;
     flex-direction: column;
-    border: solid 1px;
-    @media (991px < width <= 1199px) {
+    
+    @media (992px < width <= 1199px) {
         h1{
             font-size: 3.5em;
         }
@@ -54,9 +57,26 @@ export const Content = styled.div`
             font-size: 1.5em;
         }
         p{
-            font-size: 1.em;
+            font-size: 1.35em;
+            white-space: nowrap; 
         }
     }
+    @media (width <= 991px) {
+        h1{
+            font-size: 2.5em;
+        }
+        h6{
+            font-size: 1.5em;
+        }
+        p{
+            font-size: 1.2em;
+        }
+        p br{
+            display: none;
+        }
+        width: 70%;
+    }
+   
 `;
 
 export const GhostAnimation = styled.div`
@@ -68,19 +88,16 @@ export const GhostAnimation = styled.div`
     @media (991px < width <= 1499px) {
         img{
            margin-left: 0%;
-           width: 600px;  
+           width: 550px;  
         }    
     }
-    @media (767px < width <= 991px) {
+    @media (width <= 991px) {
         img{
 
             margin-left: 0%; 
-            width:  400px;
-            
-
+            width:  350px;
         }
        
-
     }
     @keyframes backgroundScroll {
         0% {

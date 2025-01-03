@@ -11,7 +11,6 @@ export const Links = styled.nav`
         align-items: center;
         list-style:none;
         gap: 30px;
-        border: solid 1px;
     }
     li{
         border: solid 1px white;
@@ -24,5 +23,9 @@ export const Links = styled.nav`
     }
     img{
         width:25px; 
+    }
+    @media ( width <= 991px) {
+        margin-right: 5%;
+        transform: scale(0.9);
     }
 `;

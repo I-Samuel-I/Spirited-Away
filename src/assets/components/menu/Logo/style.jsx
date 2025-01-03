@@ -6,7 +6,10 @@ export const Logo = styled.div`
     justify-content: end;
     margin-left: 10%;
     img{
-        border: solid 1px;
         width: 205px;
+    }
+    @media ( width <= 991px) {
+        width: 175px;
+        margin-left: 5%;
     }
 `;

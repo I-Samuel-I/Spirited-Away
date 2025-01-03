@@ -4,7 +4,14 @@ export const Button = styled.div `
     display:flex;
     margin-top: 10%;
     gap: 10px;
-       
+    @media (width <= 991px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin-top: 7%;
+    }
     a{
         display: flex;
         align-items: center;
@@ -22,7 +29,10 @@ export const Button = styled.div `
         }
         &.secondary {
             color: white;
-            border: solid 3px #f1a5b1;
+            border: solid 2px #f1a5b1;
+        }
+        @media (width <= 991px) {
+            width: 100%;
         }
        }
        img{
@@ -30,5 +40,14 @@ export const Button = styled.div `
         width: 20px;
         margin: 0px;
         margin-right: 5%;
+       }
+       
+    @media (width <= 1199px) {
+        a{
+            font-size: 1em;
+        }
+        img{
+            margin-right: 2%;
+        }
        }
 `;
