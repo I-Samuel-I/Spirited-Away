@@ -17,6 +17,5 @@ export const Logo = styled.div`
         margin: auto;
         
             width: 150px;
-        
     }
 `;

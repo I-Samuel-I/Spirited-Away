@@ -3,24 +3,24 @@ import styled from "styled-components";
 export const Featured = styled.section`
    
     color: white;
-    margin-top:10%;
-    width: 90%;
+    margin-top: 5%;
+    margin-left: 10%;
+
     @media ( width <= 1199px) {
         width: 100%;
         margin-top: 10%
     }
     @media (width <= 991px) {
         margin-top: 0%;
+        margin-left: 0%;
     }
-   
     section{
-        display:flex;
-        flex-direction: row-reverse;
+        display: flex;
         @media ( width <= 991px) {
-         display: flex;
-         flex-direction: column;   
-         align-items: center;
-         justify-content:center;
+            display: flex;
+            flex-direction: column-reverse;   
+            align-items: center;
+            justify-content:center;
         }
     }
     h1{
@@ -38,7 +38,6 @@ export const Featured = styled.section`
         line-height: 1.5;
         margin-top: 6%;
     }
-
     img{
         display: flex;
         flex-direction: row;
@@ -49,7 +48,7 @@ export const Featured = styled.section`
 export const Content = styled.div`
     display: flex;
     flex-direction: column;
-    margin-right: 20%;
+    
     @media (992px < width <= 1199px) {
         h1{
             font-size: 3.5em;
@@ -63,6 +62,10 @@ export const Content = styled.div`
         }
     }
     @media (width <= 991px) {
+        position: relative;
+        bottom: 50px;
+        width: 70%;
+    
         h1{
             font-size: 2.5em;
         }
@@ -76,39 +79,43 @@ export const Content = styled.div`
             display: none;
         }
         @media (width <= 600px) {
-            width: 90%;
-            
-            h1{
-                font-size: 3em;
-            }
-            h6{
-                font-size: 1.3em;
-            }
+            width: 90%;   
+        }
     }
-        width: 70%;
-    }
-   
 `;
 
 export const GhostAnimation = styled.div`
     img{
         position: relative;
-        bottom: 100px;
-        width: 700px;
+        bottom: 50px;
+        width: 650px;
         animation: backgroundScroll 4s infinite;
+        margin-left: 15%;
     }
-    @media (991px < width <= 1499px) {
+    
+    @media ( width <= 1300px){
         img{
-           margin-left: 0%;
-           width: 550px;  
+            margin-left: 10%;
+            width: 600px;
+        }
+    }
+    @media ( 992px < width <= 1199px) {
+        img{
+            margin-left: 0%;
+            width: 535px;  
         }    
     }
     @media (width <= 991px) {
         img{
             margin-left: 0%; 
+            width:  375px;
+        }
+    }
+    @media (width <= 600px) {
+        img{
+            margin-left: 0%; 
             width:  350px;
         }
-       
     }
     @keyframes backgroundScroll {
         0% {

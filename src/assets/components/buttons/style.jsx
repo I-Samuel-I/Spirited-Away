@@ -13,12 +13,11 @@ export const Button = styled.div`
         gap: 30px;
         margin-top: 8%;
     }
-
     a {
         display: flex;
         align-items: center;
         justify-content: center;
-        position: relative; /* Necessário para o efeito do ::after */
+        position: relative; 
         width: 50%;
         height: 5.5vh;
         border-radius: 5px;
@@ -26,8 +25,7 @@ export const Button = styled.div`
         text-decoration: none;
         font-weight: bolder;
         color: white;
-        overflow: hidden; /* Evita que o pseudo-elemento ultrapasse o botão */
-        
+        overflow: hidden; 
         &.primary {
             background-color: #f1a5b1;
             color: black;
@@ -41,8 +39,6 @@ export const Button = styled.div`
         @media (width <= 991px) {
             width: 100%;
         }
-
-        
         &:after {
             content: "";
             position: absolute;
@@ -55,7 +51,6 @@ export const Button = styled.div`
             transform: rotate(35deg);
             transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
         }
-
         &:hover {
             background-color: #2D1607;
             border: none;
@@ -65,7 +60,7 @@ export const Button = styled.div`
                 transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
             }
             img {
-                filter: invert(1); /* Muda a cor da imagem de preto para branco */
+                filter: invert(1);
             }
         }
     }
@@ -76,7 +71,7 @@ export const Button = styled.div`
         margin: 0px;
         margin-right: 5%;
     }
-
+    
     @media (width <= 1199px) {
         a {
             font-size: 1em;

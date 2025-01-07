@@ -12,7 +12,6 @@ export default function Display (){
                     <Featured/>
                 </main>  
         </S.Display>
-        
         </>
     )
 }

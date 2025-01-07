@@ -6,20 +6,19 @@ export default function Featured (){
         <>
             <S.Featured>
                 <section>
-                <S.GhostAnimation>
-                        <img src={Image.Ghosts}/>  
-                    </S.GhostAnimation>  
                     <S.Content>
                          <h6>HAYAO MIYAZAKI</h6>
                         <h1>A VIAGEM <br/>DE CHIHIRO</h1>
                         <p>Chihiro chega a um mundo mágico dominado<br/>
                         por uma bruxa. Aqueles que a desobedecem<br/> 
                         são transformados em animais.</p>
-                        <Buttons/>
-                    </S.Content>
+                        <Buttons/>  
+                    </S.Content>   
+                    <S.GhostAnimation>
+                        <img src={Image.Ghosts}/>  
+                    </S.GhostAnimation> 
                 </section> 
             </S.Featured>
-        
         </>
     )
 }

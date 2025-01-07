@@ -34,8 +34,6 @@ export const Links = styled.nav`
         transform: scale(0.9);
     }
     @media (width <= 600px) {
-            display: none;
-        
-        
+            display: none;    
     }
 `;

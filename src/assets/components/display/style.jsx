@@ -9,6 +9,4 @@ export const Display = styled.main `
     ::selection{
         cursor: url(${CursorSelect}), auto;
     }
-
-
 `;
