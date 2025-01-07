@@ -8,7 +8,9 @@ import Logo from "../../images/logo.svg";
 import Play from "../../images/Play.svg";
 import CursorDefault from "../../images/cursor-default.cur";
 import CursorSelect from "../../images/cursor-select.cur";
+import Loading from "../../images/Loading.webp";
 export{
     Favicon, Ghosts, FacebookLogo, GoogleLogo, InstagramLogo, 
-    TwitterLogo, Logo, Play , CursorDefault , CursorSelect
+    TwitterLogo, Logo, Play , CursorDefault , CursorSelect,
+    Loading
 }
