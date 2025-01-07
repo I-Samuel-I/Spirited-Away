@@ -10,7 +10,7 @@ export const Button = styled.div `
         justify-content: center;
         align-items: center;
         gap: 30px;
-        margin-top: 7%;
+        margin-top: 8%;
     }
     a{
         display: flex;

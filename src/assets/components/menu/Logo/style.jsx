@@ -12,4 +12,11 @@ export const Logo = styled.div`
         width: 175px;
         margin-left: 5%;
     }
+    @media (width <= 600px) {
+        display: flex;
+        margin: auto;
+        
+            width: 150px;
+        
+    }
 `;

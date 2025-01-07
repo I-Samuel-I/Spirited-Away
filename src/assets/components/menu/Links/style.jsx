@@ -12,6 +12,11 @@ export const Links = styled.nav`
         list-style:none;
         gap: 30px;
     }
+    li:hover{
+        background-color: #677275;
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
     li{
         border: solid 1px white;
         border-radius: 50px;
@@ -27,5 +32,10 @@ export const Links = styled.nav`
     @media ( width <= 991px) {
         margin-right: 5%;
         transform: scale(0.9);
+    }
+    @media (width <= 600px) {
+            display: none;
+        
+        
     }
 `;

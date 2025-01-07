@@ -3,20 +3,19 @@ import styled from "styled-components";
 export const Featured = styled.section`
    
     color: white;
-    margin-left: 10%;
-    margin-top:7%;
+    margin-top:10%;
     width: 90%;
     @media ( width <= 1199px) {
         width: 100%;
-        margin-left: 0%;
         margin-top: 10%
     }
     @media (width <= 991px) {
         margin-top: 0%;
     }
+   
     section{
         display:flex;
-        
+        flex-direction: row-reverse;
         @media ( width <= 991px) {
          display: flex;
          flex-direction: column;   
@@ -30,12 +29,14 @@ export const Featured = styled.section`
     }
     h6{
         font-size: 1.5em;
+        font-family: "Andada Pro", serif;
+        font-weight: 900;
     }
     p{
         white-space: normal;
         font-size: 1.5em;
         line-height: 1.5;
-        margin-top: 5%;
+        margin-top: 6%;
     }
 
     img{
@@ -48,7 +49,7 @@ export const Featured = styled.section`
 export const Content = styled.div`
     display: flex;
     flex-direction: column;
-    
+    margin-right: 20%;
     @media (992px < width <= 1199px) {
         h1{
             font-size: 3.5em;
@@ -74,6 +75,16 @@ export const Content = styled.div`
         p br{
             display: none;
         }
+        @media (width <= 600px) {
+            width: 90%;
+            
+            h1{
+                font-size: 3em;
+            }
+            h6{
+                font-size: 1.3em;
+            }
+    }
         width: 70%;
     }
    
@@ -81,7 +92,8 @@ export const Content = styled.div`
 
 export const GhostAnimation = styled.div`
     img{
-        margin-left: 40%;
+        position: relative;
+        bottom: 100px;
         width: 700px;
         animation: backgroundScroll 4s infinite;
     }
@@ -93,7 +105,6 @@ export const GhostAnimation = styled.div`
     }
     @media (width <= 991px) {
         img{
-
             margin-left: 0%; 
             width:  350px;
         }
