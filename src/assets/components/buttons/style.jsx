@@ -13,6 +13,9 @@ export const Button = styled.div`
         gap: 30px;
         margin-top: 8%;
     }
+    @media ( width <= 600px){
+        gap: 25px;
+    }
     a {
         display: flex;
         align-items: center;
@@ -24,7 +27,7 @@ export const Button = styled.div`
         font-size: 1.1em;
         text-decoration: none;
         font-weight: bolder;
-        color: white;
+        color: white;   
         overflow: hidden; 
         &.primary {
             background-color: #f1a5b1;
@@ -39,6 +42,9 @@ export const Button = styled.div`
         @media (width <= 991px) {
             width: 100%;
         }
+        @media ( width <= 600px){
+            height: 6vh   
+    }
         &:after {
             content: "";
             position: absolute;

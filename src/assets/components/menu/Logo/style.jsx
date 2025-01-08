@@ -15,7 +15,10 @@ export const Logo = styled.div`
     @media (width <= 600px) {
         display: flex;
         margin: auto;
-        
+        align-items: center;
+        justify-content: center;
+        img{
             width: 150px;
+        }
     }
 `;

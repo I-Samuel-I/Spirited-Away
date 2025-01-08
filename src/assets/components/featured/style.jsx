@@ -63,7 +63,7 @@ export const Content = styled.div`
     }
     @media (width <= 991px) {
         position: relative;
-        bottom: 50px;
+        bottom: 85px;
         width: 70%;
     
         h1{
@@ -79,7 +79,17 @@ export const Content = styled.div`
             display: none;
         }
         @media (width <= 600px) {
-            width: 90%;   
+            width: 90%;
+            
+            h1{
+                font-size: 2.2em;
+            }
+            h6{
+                font-size: 1.2em;
+            }
+            p{
+                font-size: 1em;
+            }
         }
     }
 `;
@@ -114,7 +124,7 @@ export const GhostAnimation = styled.div`
     @media (width <= 600px) {
         img{
             margin-left: 0%; 
-            width:  350px;
+            width:  300px;
         }
     }
     @keyframes backgroundScroll {
