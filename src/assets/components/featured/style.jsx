@@ -8,7 +8,7 @@ export const Featured = styled.section`
 
     @media ( width <= 1199px) {
         width: 100%;
-        margin-top: 10%
+        margin-top: 10%;
     }
     @media (width <= 991px) {
         margin-top: 0%;
@@ -63,7 +63,7 @@ export const Content = styled.div`
     }
     @media (width <= 991px) {
         position: relative;
-        bottom: 85px;
+        bottom: 90px;
         width: 70%;
     
         h1{
@@ -82,13 +82,13 @@ export const Content = styled.div`
             width: 90%;
             
             h1{
-                font-size: 2.2em;
+                font-size: 2.3em;
             }
             h6{
-                font-size: 1.2em;
+                font-size: 1.1em;
             }
             p{
-                font-size: 1em;
+                font-size: 0.9em;
             }
         }
     }
@@ -100,7 +100,7 @@ export const GhostAnimation = styled.div`
         bottom: 50px;
         width: 650px;
         animation: backgroundScroll 4s infinite;
-        margin-left: 15%;
+        margin-left: 25%;
     }
     
     @media ( width <= 1300px){
@@ -125,6 +125,11 @@ export const GhostAnimation = styled.div`
         img{
             margin-left: 0%; 
             width:  300px;
+        }
+    }
+    @media (width <= 399px) {
+        img{
+            width: 250px;
         }
     }
     @keyframes backgroundScroll {

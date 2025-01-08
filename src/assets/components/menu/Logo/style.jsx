@@ -21,4 +21,9 @@ export const Logo = styled.div`
             width: 150px;
         }
     }
+    @media (width <= 399px) {
+        img{
+            width: 125px;
+        }
+    }
 `;

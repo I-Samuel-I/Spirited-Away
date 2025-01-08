@@ -44,7 +44,10 @@ export const Button = styled.div`
         }
         @media ( width <= 600px){
             height: 6vh   
-    }
+        }
+        @media (width <= 399px) {
+            height: 6.5vh;
+        }
         &:after {
             content: "";
             position: absolute;

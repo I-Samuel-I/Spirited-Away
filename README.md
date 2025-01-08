@@ -2,7 +2,7 @@
 
 > Status : Em andamento ⌛
 
-## Desafio [16] Codelândia - Iuri Silva
+## Desafio [05] Codelândia - Iuri Silva
 >Veja o design: https://www.figma.com/design/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---CodeLab
 
 <img width="800px" src="./src/assets/images/Print-Away.png">
@@ -20,7 +20,7 @@ _Tecnologias:_
 - code . (caso use o VSCode)
 - npm start / yarn start
 
-## 💻 Página oline: 
+## 💻 Página oline: https://spirited-away-two.vercel.app 
 
 ## 🌐 Contate-me:
 
