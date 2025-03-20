@@ -8,6 +8,10 @@ export const Logo = styled.div`
     img{
         width: 205px;
     }
+    @media ( width <= 1199px) {
+        width: 180px;
+        
+    }
     @media ( width <= 991px) {
         width: 175px;
         margin-left: 5%;

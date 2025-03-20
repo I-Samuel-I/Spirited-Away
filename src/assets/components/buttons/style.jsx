@@ -4,7 +4,9 @@ export const Button = styled.div`
     display: flex;
     margin-top: 10%;
     gap: 20px;
-
+    @media (width <= 1199px) {
+    margin-top: 6%;
+    }
     @media (width <= 991px) {
         display: flex;
         flex-direction: column;
@@ -22,13 +24,16 @@ export const Button = styled.div`
         justify-content: center;
         position: relative; 
         width: 50%;
-        height: 5.5vh;
+        height: 50px;
         border-radius: 5px;
         font-size: 1.1em;
         text-decoration: none;
         font-weight: bolder;
         color: white;   
         overflow: hidden; 
+        @media (width <= 1199px) {
+            height: 45px;  
+        }
         &.primary {
             background-color: #f1a5b1;
             color: black;
