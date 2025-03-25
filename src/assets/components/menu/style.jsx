@@ -8,5 +8,6 @@ export const Menu = styled.header`
     }
     @media (width <= 600px) {
         height: auto;
-    } 
+    }
+    
 `;

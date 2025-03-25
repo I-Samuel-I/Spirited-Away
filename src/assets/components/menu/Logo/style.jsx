@@ -30,4 +30,9 @@ export const Logo = styled.div`
             width: 125px;
         }
     }
+    @media (max-height: 700px) {
+        img{
+            width: 175px;
+        }
+  }
 `;

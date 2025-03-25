@@ -5,6 +5,12 @@ export const Featured = styled.section`
   margin-top: 5%;
   margin-left: 10%;
 
+  @media (max-height: 700px) {
+    margin-top: 3%;
+    
+    font-size: 0.8em;
+    
+  }
   @media (width <= 1199px) {
     width: 100%;
     margin-top: 4%;
@@ -100,6 +106,11 @@ export const GhostAnimation = styled.div`
     width: 650px;
     animation: backgroundScroll 4s infinite;
     margin-left: 25%;
+  }
+  @media (max-height: 700px) {
+      img{
+        width: 550px;
+      }
   }
 
   @media (width <= 1300px) {
